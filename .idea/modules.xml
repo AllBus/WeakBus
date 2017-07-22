@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeakBus.iml" filepath="$PROJECT_DIR$/.idea/modules/WeakBus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeakBus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WeakBus_main.iml" group="WeakBus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeakBus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WeakBus_test.iml" group="WeakBus" />
+    </modules>
+  </component>
+</project>
