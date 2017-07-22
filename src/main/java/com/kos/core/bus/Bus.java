@@ -80,6 +80,19 @@ public class Bus {
 		enforce();
 
 		handlers.forEach(busAction.setup(event));
+		handlers.garbage();
+	}
+
+	public int handlersCount(){
+		return handlers.size();
+	}
+
+	public void garbage(){
+		handlers.garbage();
+	}
+
+	public void handlersClear(){
+		handlers.clear();
 	}
 
 	/**
