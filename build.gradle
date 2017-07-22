@@ -1,7 +1,8 @@
 group 'com.github.allbus'
-version '1.0.3'
+version '1.0.4'
 
 apply plugin: 'java'
+apply plugin: 'com.github.dcendents.android-maven'
 
 sourceCompatibility = 1.8
 
@@ -10,7 +11,6 @@ repositories {
 	mavenCentral()
 }
 
-у
 dependencies {
 	testCompile group: 'junit', name: 'junit', version: '4.12'
 }
