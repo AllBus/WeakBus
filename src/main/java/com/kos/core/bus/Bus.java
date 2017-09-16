@@ -19,7 +19,7 @@ public class Bus {
 	 * Identifier used to differentiate the event bus instance.
 	 */
 	private final String identifier;
-	private final BusAction busAction= new BusAction();
+//	private final BusAction busAction= new BusAction();
 	/**
 	 * Creates a new Bus named {@code identifier}
 	 */
@@ -79,7 +79,7 @@ public class Bus {
 		}
 		enforce();
 
-		handlers.forEach(busAction.setup(event));
+		handlers.forEach(new BusAction().setup(event));
 		handlers.garbage();
 	}
 
